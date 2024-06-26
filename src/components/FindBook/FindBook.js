@@ -40,7 +40,7 @@ const FindBook = () => {
       </Typography>
       <TextField
         fullWidth
-        label="Title"
+        label="Titel"
         name="titel"
         margin="normal"
         variant="outlined"
@@ -69,7 +69,7 @@ const FindBook = () => {
                 <p>Title: {book.titel.titel}</p>
                 <p>Subtitle: {book.titel.untertitel}</p>
                 <p>ISBN: {book.isbn}</p>
-                <p>Price: {book.preis}</p>
+                <p>Preis: {book.preis}</p>
               </div>
             ))}
           </div>
